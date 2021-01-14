@@ -5,11 +5,16 @@
     margin-bottom: 24px;
     list-style-type: none;
 }
+@media screen and (max-width: 607px) {
+    .footer__container {
+        display: block;
+    }
+}
 @media screen and (max-width: 425px) {
     .footer__container {
         display: flex;
-        padding: 0;
         flex-direction: column;
+        padding: 0;
         margin-bottom: 0;
     }
 }

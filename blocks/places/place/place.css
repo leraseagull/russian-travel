@@ -21,12 +21,14 @@
 }
 @media screen and (max-width: 684px) {
     .place {
-        grid-template-columns: 300px 1fr;
+        grid-template-columns: 1fr 1fr;
         gap:32px;
+        justify-content: center;
     }
 }@media screen and (max-width: 607px) {
     .place {
         grid-template-columns: 425px;
+        justify-content: center;
         gap:32px;
     }
 }
