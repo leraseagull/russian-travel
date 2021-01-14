@@ -3,7 +3,6 @@
     list-style-type: none;
     padding: 0;
     margin-bottom: 24px;
-    list-style-type: none;
 }
 @media screen and (max-width: 607px) {
     .footer__container {
