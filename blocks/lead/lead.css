@@ -7,23 +7,23 @@
     margin: auto;
    
 }
-@media screen and (max-width: 1024px) {
+@media all and (max-width: 1024px) {
     .lead {
-        max-width: 928px;
+        max-width: 95%;
         padding-top: 48px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 768px) {
     .lead {
-        max-width: 768px;
+        max-width: 100%;
         padding-top: 48px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media all and (max-width: 425px) {
     .lead {
-        max-width: 320px;
+        max-width: 100%;
         padding-top: 48px;
     }
 }
