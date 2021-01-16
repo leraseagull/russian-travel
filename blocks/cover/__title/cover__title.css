@@ -8,6 +8,7 @@
     margin: 0;
     margin-bottom: 32px;
     z-index: 2;
+    font-weight: 900;
 
 }
 @media all and (max-width: 500px) {
