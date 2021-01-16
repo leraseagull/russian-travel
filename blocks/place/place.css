@@ -12,17 +12,17 @@
     
     }
 }
+@media all and (max-width: 768px) {
+    .place {
+        padding-bottom: 90px;
+    }
+}
 @media all and (max-width: 680px) {
     .place {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         gap: 32px;
         max-width: 320px;
-    }
-}
-@media all and (max-width: 768px) {
-    .place {
-        padding-bottom: 90px;
     }
 }
 @media all and (max-width: 320px) {
