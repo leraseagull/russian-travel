@@ -4,7 +4,7 @@
     grid-template-columns: 460px 468px;
     grid-template-rows: auto;
     gap: 48px 40px;
-    padding-bottom: 80px;
+    padding-bottom: 92px;
 }
 @media all and (max-width: 1024px) {
     .place {
@@ -16,7 +16,17 @@
     .place {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
-        gap: 15px;
+        gap: 32px;
         max-width: 320px;
+    }
+}
+@media all and (max-width: 768px) {
+    .place {
+        padding-bottom: 90px;
+    }
+}
+@media all and (max-width: 320px) {
+    .place {
+        padding-bottom: 66px;
     }
 }

@@ -1,15 +1,6 @@
 .cover {
-    max-width: 1184px;
-    margin-left: auto;
-    margin-right: auto;
+    color: #ffffff;
     margin-bottom: 92px;
-}
-
-@media all and (max-width: 1024px) {
-    .cover {
-        margin: 0;
-        margin-bottom: 92px;
-}
 }
 @media all and (max-width: 768px) {
     .cover {

@@ -9,21 +9,21 @@
 }
 @media all and (max-width: 1024px) {
     .lead {
-        max-width: 95%;
+        max-width: 928px;
         padding-top: 48px;
     }
 }
 
 @media all and (max-width: 768px) {
     .lead {
-        max-width: 100%;
+        max-width: 768px;
         padding-top: 48px;
     }
 }
 
 @media all and (max-width: 425px) {
     .lead {
-        max-width: 100%;
+        max-width: 320px;
         padding-top: 48px;
     }
 }
