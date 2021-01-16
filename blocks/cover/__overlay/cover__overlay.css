@@ -18,7 +18,6 @@
     background: #2A2C2F;
     opacity: 0.3;
     content: '';
-    transition: opacity linear 0.25s;
 }
 
 .cover__overlay:hover::before {
