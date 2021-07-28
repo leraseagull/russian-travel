@@ -10,6 +10,7 @@
     min-height: 740px;
     margin: 0 48px;
     position: relative;
+    transition: .5s linear;
 }
 .cover__overlay::before {
     position: absolute;
@@ -22,7 +23,6 @@
 
 .cover__overlay:hover::before {
     opacity: 0.8;
-    transition: .5s linear;
 }
 @media all and (max-width: 1024px) {
     .cover__overlay {
